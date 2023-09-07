@@ -72,10 +72,26 @@ caption{
 }
 
 
+label{
+    display: block;
+    margin: 15px 0 0 0;
+}
+input{
+    width: 300px;
+}
+input[type="radio"]{
+    width: 25px;
+}
+textarea{
+    width: 300px;
+}
+input[type="submit"]{
+    display: block;
+    margin: 20px 0 10px 0;
+    width: 100px;
+}
 
-
-
-
+/* Footer Style */
 footer{
     height: 40px;
     background-color: rgb(129, 141, 179);
