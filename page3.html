@@ -1,59 +1,62 @@
 <html>
-    <head>
-        <title>My Third Page</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <!-- Container is used to wrap everything -->
-        <div id="container">
-            <!-- Website Brand -->
-            <header>My Webpage Brand</header>
-            <!-- Main Navigation -->
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="page2.html">About Us</a></li>
-                    <li><a href="page3.html">Contact Us</a></li>
-                    <li>Gallery</li>
-                </ul>
-            </nav>
-            <!-- Main Content -->
-            <main>
-                <h1>My Third Heading</h1>
-                <p>This is my third paragraph of information. </p>
-                <img src="images/central_park.jpg" alt="Central Park Winter" width="500px">
-                <form action="/signup" method="post">
-                    <fieldset>
-                        <legend>User Personal Information</legend>
-                        <label>Your Full Name</label><br>
-                        <input type="text" name="full_name"><br>
-                        <label>Your Email Address</label><br>
-                        <input type="email" name="email"><br>
-                        <label>Your Phone Number</label><br>
-                        <input type="text" name="phone"><br>
 
-                        <label>Your Gender</label><br>
-                        <input type="radio" name="gender" value="male">Male <br>
-                        <input type="radio" name="gender" value="female">Female <br>
-                        <input type="radio" name="gender" value="other">Other<br>
+<head>
+    <title>My Third Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-                        <label>How should we contact you?</label><br>
-                        <select name="contact_method">
-                            <option value="email">Email</option>
-                            <option value="phonee">Phone</option>
-                            <option value="pidgeon">Carrier Pidgeon</option>
-                        </select><br>
+<body>
+    <!-- Container is used to wrap everything -->
+    <div id="container">
+        <!-- Website Brand -->
+        <header>My Webpage Brand</header>
+        <!-- Main Navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="page2.html">About Us</a></li>
+                <li><a href="page3.html">Contact Us</a></li>
+                <li>Gallery</li>
+            </ul>
+        </nav>
+        <!-- Main Content -->
+        <main>
+            <h1>My Third Heading</h1>
+            <p>This is my third paragraph of information. </p>
+            <!-- <img src="images/central_park.jpg" alt="Central Park Winter" width="500px"> -->
+            <form action="/signup" method="post">
+                <fieldset>
+                    <legend>User Personal Information</legend>
+                    <label>Your Full Name</label><br>
+                    <input type="text" name="full_name"><br>
+                    <label>Your Email Address</label><br>
+                    <input type="email" name="email"><br>
+                    <label>Your Phone Number</label><br>
+                    <input type="text" name="phone"><br>
 
-                        <label>What do you need today?</label><br>
-                        <textarea cols="40" rows="5"></textarea><br>
+                    <label>Your Gender</label><br>
+                    <input type="radio" name="gender" value="male">Male <br>
+                    <input type="radio" name="gender" value="female">Female <br>
+                    <input type="radio" name="gender" value="other">Other<br>
 
-                        <input type="submit" value="Sign up"><br>
-                    </fieldset>
-                </form>
-            </main>
-            <!-- Footer -->
-            <footer>&copy; Copyright 2023</footer>
-        </div>
-        <!-- End Container -->
-    </body>
+                    <label>How should we contact you?</label><br>
+                    <select name="contact_method">
+                        <option value="email">Email</option>
+                        <option value="phonee">Phone</option>
+                        <option value="pidgeon">Carrier Pidgeon</option>
+                    </select><br>
+
+                    <label>What do you need today?</label><br>
+                    <textarea cols="40" rows="5"></textarea><br>
+
+                    <input type="submit" value="Sign up"><br>
+                </fieldset>
+            </form>
+        </main>
+        <!-- Footer -->
+        <footer>&copy; Copyright 2023</footer>
+    </div>
+    <!-- End Container -->
+</body>
+
 </html>
