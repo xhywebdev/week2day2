@@ -8,7 +8,7 @@ header{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
+/* Nav Bar Selections */
 li{
     list-style-type: none;
     display: inline;
@@ -34,7 +34,7 @@ li a:active{
     color: #753a30;
 }
 
-
+/* Nav Bar */
 nav{
     background-color: rgb(255, 245, 238);
     height: 50px;
@@ -42,11 +42,39 @@ nav{
     padding-top: 2px;
 }
 
-
+/* Main Area */
+main{
+    margin: 50px;
+}
 main h1{
     color: rgb(129, 141, 179);
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Table Style */
+table{
+    margin-top: 35px;
+}
+table, caption, th, td{
+    border: 1px solid black;
+}
+th, td{
+    width: 150px;
+    height: 35px;
+    text-align: center;
+}
+caption{
+    text-transform: uppercase;
+    font-weight: bolder;
+    height: 40px;
+    padding-top: 15px;
+    color: #753a30;
+}
+
+
+
+
+
 
 footer{
     height: 40px;
@@ -55,3 +83,4 @@ footer{
     padding-top: 20px;
     color: rgb(211, 218, 240);
 }
+
